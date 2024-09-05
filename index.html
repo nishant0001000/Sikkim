@@ -34,6 +34,21 @@
             margin-right: 40px;
            
         }
+        .header-right-img {
+            height: 40px; /* Adjust height of right-side image */
+            width: auto;
+            padding: 3px;   
+        }
+
+        /* Add this inside your style tag or stylesheet */
+
+        @media (max-width: 100px) {
+        .header-right-img {
+        display: none; /* Hide the right image on mobile devices */
+        }
+         }
+
+
         .header-title {
             font-size: 24px;
             text-align: center;
@@ -121,6 +136,8 @@
             <!-- Logo in the Header -->
             <img src="./h5setting_20240628133843ettp.png" alt="Sikkim Logo" class="header-logo">
             <div class="header-title">Welcome to Sikkim </div>
+            <img src="./en-4c6eba8e.png" alt="en" class="header-right-img">
+            <div >En </div>
         </div>
     </header>
 
@@ -128,7 +145,10 @@
         <!-- Image inserted between header and the main h1 -->
         <img src="./h5setting_20240628133837xkh7.png" alt="Color Prediction Logo" class="header-image">
         
-        <h1>Predict, Trade & Win</h1>
+        
+        <h1>Register</h1>
+        <h3>Please register by  phone no and email </h3>
+        <br>
         <a href="https://sikkim111.com/#/register?invitationCode=275141589194" class="btn">Login</a>
         <a href="https://sikkim111.com/#/register?invitationCode=275141589194" class="btn">Register</a>
     </div>
